@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-header {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 196, 196);
+
+}
+
+.main-header input[type=text] {
+    padding: 6px;
+    border-color: black;
+    font-size: 18px;
+    width: 350px;
+}
+
+.main-header button {
+    color: white;
+    background-color: rgb(38, 118, 239);
+    width: 90px;
+    font-size: 18px;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+
+.main-blocks {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 30px;
+    border-color: black;
+    display: flex;
+}
+
+.body-card {
+    width: 100%;
+    display: flex;
+    border: 3px solid black;
+    align-items: center;
+}
+
+.larger-side {
+    flex: 2;
+}
+
+.smaller-side {
+    flex: 1;
+}
+
+.container {
+    margin: 15px;
+    text-align: center;
+}
+
+.marginRight {
+    margin-right: 30px;
+}
+
+.likes-btn {
+    color: black;
+    background-color: rgb(224, 214, 32);
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: black;
+    box-shadow: 4px 4px black;
+}
+
+.container h1,
+h3,
+p {
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    background-color: rgb(140, 201, 102);
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: black;
+    box-shadow: 4px 4px black;
+    margin-top: 20px;
+}
+
+button:hover {
+    filter: brightness(150%);
+}
